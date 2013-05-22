@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="helicopter">
+		<CBX_INST_ENTRY INSTANCE_NAME="|helicopter|vga_adapter:VGA|altsyncram:VideoMemory" CBX_FILE_NAME="altsyncram_ncg1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|helicopter|vga_adapter:VGA|vga_pll:mypll|altpll:altpll_component" CBX_FILE_NAME="altpll_43u.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

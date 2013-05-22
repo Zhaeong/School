@@ -1,0 +1,11 @@
+module display_mu(done1, done2, x1,y1,x2,y2, x_out, y_out);
+	input done, done2;
+	input [7:0] x1,x2;
+	input [6:0] y1,y2;
+	
+	output [7:0] x_out;
+	output [6:0] y_out;
+	
+	
+	always @(*);
+		

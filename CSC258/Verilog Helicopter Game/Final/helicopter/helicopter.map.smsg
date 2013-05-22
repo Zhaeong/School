@@ -1,0 +1,6 @@
+Warning (10268): Verilog HDL information at helicopter.v(43): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at helicopter.v(58): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at helicopter.v(72): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at helicopter.v(129): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at display_heli.v(14): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at display_obs.v(14): always construct contains both blocking and non-blocking assignments

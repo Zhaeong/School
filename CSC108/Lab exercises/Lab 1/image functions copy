@@ -1,0 +1,36 @@
+import media
+
+def get_picture():	
+    filename = media.choose_file()
+    pic = media.load_picture(filename)
+    return pic
+
+# Replace the line below with an appropriate body for this function.
+
+
+def maximize_red(pic):
+
+    new_pic = media.copy(pic)
+	
+    for pix in new_pic:
+        media.set_red(pix, 255)
+
+    return new_pic
+
+def remove_blue(pic):
+    rblue_pic=media.copy(pic)
+    for pix in rblue_pic:
+        media.set_blue(pix, 0)
+    return rblue_pic 
+
+#assign variable to remove_blue(pic), then use media.show(x) to show pic
+
+def halve_green(pic):
+    rgreen_pic=media.copy(pic)
+    for pix in rgreen_pic:
+        value = media.get_green(pix)
+        new_green = int(value * 0.5)
+        media.set_green(pix, new_green)
+    return rgreen_pic        
+        
+        
